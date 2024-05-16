@@ -1,0 +1,145 @@
+            body {
+                height: 100%;
+                margin: 0;
+                background-image: url("/CSS/Photo/Background/contact.png");
+            }
+
+            body{
+                max-width: 1250px;
+                margin: 0 auto;
+                text-align: center;
+            }
+            
+            header{
+                background-color: rgb(25, 106, 160);
+                margin: 0;
+            }
+            
+            h1{
+                text-align: left;
+                margin: 0;
+                padding: 0 15px;
+                font-size: 50px;
+                
+            }
+            
+            nav ul{
+                margin: 0;
+                padding: 0;
+                list-style-type: none;
+            }
+            
+            nav li{
+                display: block;
+                padding: 20px;
+            }
+            
+            .menu li:hover{
+                background: white;
+                text-decoration: underline;
+            }
+
+            .menu li:active{
+                background: white;
+                text-decoration: underline;
+            }
+            
+            nav a{
+                padding: 6px;
+                color: black;
+                text-decoration: none;
+                font-size: 20px;
+            }
+            
+            .menu li{
+                padding-top: 23px;
+            }
+            
+            .contact li{
+                padding: 20px 4px;
+            }
+            
+            /*logo style*/
+            
+            
+            /* flex style*/
+            nav ul{
+                display: flex; 
+            }
+            
+            nav li{
+                text-align: center;
+                flex: 1 1 0;
+            }
+            
+            nav{
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+            }
+            
+            
+            
+            @media  screen and (max-width: 768px){
+                .contact{
+                    margin: 0 auto;
+                }
+            
+                .menu{
+                    margin: 0 auto;
+                }
+
+                nav li{
+                    padding: 10px;
+                }
+            }
+            
+          /*---Conténus---*/
+            
+            .Connexion {
+                width: 400px;
+                height: 400px;
+                background: white;
+                text-align: center;
+                padding: 30px;
+                border: 2px solid rgba(0, 0, 0, 0.65);
+                border-radius: 5px;
+                box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+                margin: 90px auto;
+            }
+            
+            .Connexion h1 {
+                margin: 0;
+                font-size: 60px;
+            }
+            
+            .Connexion h4 {
+                font-weight: normal;
+                padding: 10px;
+                background: #fff3cd;
+                color: #856404;
+                border-radius: 5px;
+                box-shadow: 0 0 20px rgba(0, 0, 0, 0.1) inset;
+            }
+            
+            .Connexion input {
+                font-family: inherit;
+                width: 300px;
+                padding: 10px;
+                border: 1px solid rgba(0, 0, 0, 0.2);
+                border-radius: 2px;
+                font-size: 20px;
+            }
+            
+            .Connexion input[type="password"] {
+                margin-top: 5px;
+            }
+            
+            .Connexion input[type="submit"] {
+                width: 50%;
+                background: #17a2b8;
+                color: white;
+                font-size: 20px;
+                margin: 20px 0 5px 0;
+                box-shadow: 0 2px 0 rgb(0, 55, 135);
+            }
